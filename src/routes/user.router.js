@@ -1,4 +1,4 @@
-const { getAll, create, getOne, update } = require('../controllers/user.controllers');
+const { getAll, create, getOne, update, remove } = require('../controllers/user.controllers');
 const express = require('express');
 
 const userRouter = express.Router();
